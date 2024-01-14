@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Barlow';
+    
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+.circle-cursor{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    z-index: 9999999;
+    transition: all cubic-bezier(0.25, 1.5, 0.22, 1) 1s;
+
+}
+
+#main-container{
+    width: 100%;
+    background-color: black;
+}
+
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.company-name{
+    font-size: 1.5rem;
+    font-family: "Ferret Face Condensed";
+    font-weight: lighter;
+    letter-spacing: 3px;
+    color: white;
+    padding-left: 2rem;
+    padding-top: 2rem;
+
+}
+
+.menu-link{
+    padding-right:2rem ;
+    padding-top: 2rem;
+    color: white;
+    text-decoration: none;
+
+}
+
+.main-heading{
+    
+    margin-top: 5rem;
+    
+
+}
+
+.main-heading h1{
+    font-size: 10vw;
+    line-height: 1;
+    margin-left: 5rem;
+    opacity: 80%;
+    color: #d3d2d2;
+
+}
+
+.heading2{
+    padding-left: 7rem;
+}
+
+.attached{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.attached h5{
+    text-align: right;
+    color: white;
+    letter-spacing: 2px;
+    
+    
+}
+
+.sub-headings{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+    color: white;
+    margin-right: 2rem;
+    margin-top: 10rem;
+    font-size: 1.2rem;
+    line-height: 2;
+
+}
+
+.bottom-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+}
+
+.bottom-bar a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.up-down{
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+
+}
+
+.circle{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #d3d2d2;
+    color: black;
+    text-align: center;
+    margin-left: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.circle i {
+    border-radius: 50%;
+    background-color: #d3d2d2;
+    font-weight: bold;
+}
+
+.second-page{
+    background-color: black;
+    width: 100%;
+    margin-top: 8rem;
+    
+
+}
+
+
+
+.content{
+    width: 85%;
+    position: relative;
+    border-top:1px solid #d3d2d2;
+    margin-top: 4rem;
+    margin-left: 3rem;  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.content h1{
+    color: white;
+    font-size: 6vw;
+    padding-top: 4rem;
+    color: #d3d2d2;
+    opacity: 80%;
+}
+
+.content h5{
+    padding-top: 4rem;
+    color: white;
+}
+
+
+.content img{
+    opacity: 0;
+    height: 140%;
+    position: absolute;
+    z-index: 999;
+}
+
+.about-me{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4rem;
+    
+    
+    
+
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: flex-end;
+    margin-right: 14rem;
+    gap: 4rem;
+
+}
+
+.image{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-image: url(YOUTUBE\ LOGO\ 2.png);
+    background-size: cover;
+}
+
+.text-content{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+    width: 30%;
+}
+
+button{
+    color: white;
+    border: 1px solid white;
+    padding: 0.4rem 1rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+
+}
+
+.text-content p{
+    font-size: 1.1rem;
+
+}
+
+.text-content h3{
+    color: #d3d2d2;
+    opacity: 80%;
+
+}
+
+.channel{
+    color: white;
+    margin-top: 10rem;
+    margin-left: 2rem;
+}
+
+.channel h3{
+    color: #d3d2d2;
+    opacity: 80%;
+    text-transform: uppercase;
+    font-size: 1rem;
+    
+
+}
+
+.channel h2{
+    color: white;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    line-height: 2;
+
+}
+
+.footerBox{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+   
+
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    gap: 1.8rem;
+    margin-right: 3rem;
+   
+
+}
+
+.right a{
+    
+
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+/* ANIMATION CODE */
+
+.moveUp{
+    width: fit-content;
+    overflow: hidden;
+
+}
+
+.moveUp #movingAnimation{
+    transform: translateY(100%);
+}
+
+
